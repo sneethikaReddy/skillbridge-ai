@@ -1,0 +1,768 @@
+{
+  "users": [
+    {
+      "id": "demo-student-alex",
+      "name": "Alex Chen",
+      "email": "alex.chen@stanford.edu",
+      "passwordHash": "demo1234",
+      "createdAt": "2026-10-12T14:28:19.854Z",
+      "profile": {
+        "college": "Stanford University",
+        "degree": "Bachelor of Science",
+        "branch": "Computer Science",
+        "graduationYear": "2026",
+        "currentSkills": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Python",
+          "Git"
+        ],
+        "areasOfInterest": [
+          "Full-Stack Systems",
+          "Cloud Infrastructure",
+          "Fintech APIs"
+        ],
+        "preferredDomains": [
+          "Full-Stack Software Engineering",
+          "Backend Infrastructure"
+        ],
+        "learningGoals": "Secure a Summer 2026 Software Engineering Internship at a premier tech firm."
+      }
+    },
+    {
+      "id": "user-1793032700448-2shyl",
+      "name": "User A",
+      "email": "usera_1793032700322@test.edu",
+      "passwordHash": "password123",
+      "createdAt": "2026-10-26T16:38:20.448Z",
+      "profile": {
+        "currentSkills": [],
+        "areasOfInterest": [],
+        "preferredDomains": [],
+        "learningGoals": ""
+      }
+    },
+    {
+      "id": "user-1793032700464-f7yp4",
+      "name": "User B",
+      "email": "userb_1793032700458@test.edu",
+      "passwordHash": "password123",
+      "createdAt": "2026-10-26T16:38:20.464Z",
+      "profile": {
+        "currentSkills": [],
+        "areasOfInterest": [],
+        "preferredDomains": [],
+        "learningGoals": ""
+      }
+    },
+    {
+      "id": "user-1793151500059-st73i",
+      "name": "Sneethika Reddy",
+      "email": "sneethika09@gmail.com",
+      "passwordHash": "12345",
+      "createdAt": "2026-10-28T01:38:20.059Z",
+      "profile": {
+        "currentSkills": [],
+        "areasOfInterest": [],
+        "preferredDomains": [],
+        "learningGoals": ""
+      }
+    }
+  ],
+  "resumes": [
+    {
+      "id": "demo-resume-1",
+      "userId": "demo-student-alex",
+      "title": "Alex_Chen_Software_Intern_Resume.pdf",
+      "fileName": "Alex_Chen_Software_Intern_Resume.pdf",
+      "fileSizeBytes": 142000,
+      "uploadedAt": "2026-10-15T14:28:19.855Z",
+      "updatedAt": "2026-10-15T14:28:19.855Z",
+      "rawText": "Alex Chen\nSan Jose, CA | alex.chen@stanford.edu | (555) 234-5678 | linkedin.com/in/alexchen-dev | github.com/alexchen-dev\n\nEDUCATION\nStanford University - Stanford, CA\nB.S. in Computer Science (Concentration in Systems & AI) | Expected June 2026 | GPA: 3.82\nRelevant Coursework: Data Structures & Algorithms, Operating Systems, Web Applications, Database Systems, Computer Networks.\n\nTECHNICAL SKILLS\nLanguages: Python, TypeScript, JavaScript, SQL (PostgreSQL), HTML5/CSS3, C++\nFrameworks & Libraries: React, Node.js, Express, Tailwind CSS, Next.js, Redux Toolkit\nDatabases & Cloud: PostgreSQL, SQLite, MongoDB, AWS (S3, EC2 basic), Firebase\nDeveloper Tools: Git, GitHub, VS Code, Postman, Jest, Linux / Bash\n\nEXPERIENCE\nSoftware Engineering Intern | ByteCrafters Labs (Summer 2025)\n- Designed and built responsive frontend web components for a collaborative workspace tool using React, TypeScript, and Tailwind CSS, increasing student user engagement by 28%.\n- Integrated RESTful APIs with Node.js and Express backend, optimizing database query response times by 18% through PostgreSQL indexing.\n- Implemented unit and integration test suites with Jest, achieving 84% code coverage across client services.\n\nPROJECTS\nTaskFlow - Real-Time Collaborative Kanban Board\n- Developed a full-stack project management app using React, TypeScript, Express, and WebSocket for real-time task updates across teams.\n- Implemented JWT authentication, role-based access control, and persistent PostgreSQL storage with Prisma ORM.\n\nCampusEats - University Food Delivery Aggregator\n- Created a student food delivery portal with React, Node.js, and Google Maps API for route tracking.\n- Designed schema with 6 relational tables and wrote optimized SQL queries for order handling.\n\nCERTIFICATIONS & AWARDS\n- Meta Certified Front-End Developer (2024)\n- Dean's Honor Roll (2023 - 2025)",
+      "extractedData": {
+        "fullName": "Alex Chen",
+        "email": "alex.chen@stanford.edu",
+        "phone": "(555) 234-5678",
+        "location": "San Jose, CA",
+        "summary": "Passionate CS Junior with strong fundamentals in full-stack web development, TypeScript, React, and relational databases. Seeking software engineering internship roles.",
+        "technicalSkills": {
+          "languages": [
+            "Python",
+            "TypeScript",
+            "JavaScript",
+            "SQL",
+            "C++",
+            "HTML5/CSS3"
+          ],
+          "frameworks": [
+            "React",
+            "Node.js",
+            "Express",
+            "Tailwind CSS",
+            "Next.js",
+            "Redux Toolkit"
+          ],
+          "databases": [
+            "PostgreSQL",
+            "SQLite",
+            "MongoDB",
+            "Firebase"
+          ],
+          "tools": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "Jest",
+            "Linux / Bash",
+            "AWS (S3, EC2 basic)"
+          ],
+          "other": [
+            "RESTful APIs",
+            "WebSocket",
+            "JWT Authentication",
+            "Responsive Web Design"
+          ]
+        },
+        "softSkills": [
+          "Problem Solving",
+          "Team Collaboration",
+          "Agile Mindset",
+          "Communication"
+        ],
+        "education": [
+          {
+            "institution": "Stanford University",
+            "degree": "Bachelor of Science",
+            "field": "Computer Science",
+            "graduationDate": "June 2026",
+            "gpa": "3.82 / 4.0"
+          }
+        ],
+        "experience": [
+          {
+            "company": "ByteCrafters Labs",
+            "role": "Software Engineering Intern",
+            "duration": "June 2025 - August 2025",
+            "location": "San Jose, CA",
+            "bullets": [
+              "Designed and built responsive frontend web components using React, TypeScript, and Tailwind CSS, improving student engagement by 28%.",
+              "Integrated RESTful APIs with Node.js and Express backend, optimizing query latency by 18% with PostgreSQL indexing.",
+              "Created automated unit and integration tests with Jest with 84% coverage."
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "name": "TaskFlow - Real-Time Collaborative Kanban Board",
+            "techStack": [
+              "React",
+              "TypeScript",
+              "Express",
+              "WebSocket",
+              "PostgreSQL",
+              "Prisma"
+            ],
+            "description": "Full-stack collaborative project management platform with real-time sync.",
+            "highlights": [
+              "Multiplayer live card dragging via WebSocket",
+              "Role-based access control and JWT auth"
+            ],
+            "link": "https://github.com/alexchen-dev/taskflow"
+          },
+          {
+            "name": "CampusEats - Food Delivery Portal",
+            "techStack": [
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Google Maps API"
+            ],
+            "description": "Order routing and menu browsing portal for local campus eateries.",
+            "highlights": [
+              "Normalized relational schema with 6 tables",
+              "Real-time order tracking map"
+            ]
+          }
+        ],
+        "certifications": [
+          {
+            "name": "Meta Certified Front-End Developer",
+            "issuer": "Meta / Coursera",
+            "year": "2024"
+          }
+        ],
+        "rawTextPreview": "Alex Chen | Stanford CS Junior | Full-Stack Developer (React, TypeScript, Node.js, SQL)"
+      }
+    }
+  ],
+  "analyses": [
+    {
+      "id": "demo-analysis-1",
+      "userId": "demo-student-alex",
+      "resumeId": "demo-resume-1",
+      "resumeTitle": "Alex_Chen_Software_Intern_Resume.pdf",
+      "internshipTitle": "Full-Stack Software Engineering Intern (Summer 2026)",
+      "companyName": "Stripe",
+      "domain": "Full-Stack Development & Distributed Systems",
+      "jobDescriptionText": "About Stripe:\nStripe is a financial infrastructure platform for the internet. Millions of companies use Stripe's software and APIs to accept payments, send payouts, and manage their businesses online.\n\nThe Role:\nAs a Software Engineering Intern on the Core Infrastructure & Product Teams, you will build user-facing financial dashboards and resilient backend services that process millions of transactions daily.\n\nKey Responsibilities:\n- Build delightful, accessible, and fast web applications in React, TypeScript, and Node.js.\n- Develop and maintain scalable backend microservices, caching layers, and database schemas.\n- Collaborate with engineers, designers, and product managers to ship production-ready features.\n- Write robust unit, integration, and end-to-end tests to guarantee high financial reliability.\n\nRequirements:\n- Currently enrolled in a Bachelor's or Master's program in Computer Science or related engineering field, graduating between Dec 2026 and June 2027.\n- Solid understanding of computer science fundamentals: algorithms, data structures, and object-oriented or functional programming.\n- Hands-on experience building web apps with TypeScript, JavaScript, React, and Node.js or Python.\n- Working knowledge of relational databases and SQL (PostgreSQL or MySQL).\n- Familiarity with Git version control and modern software development workflows.\n\nPreferred Qualifications:\n- Experience with Redis or in-memory caching mechanisms.\n- Experience with Docker containerization and CI/CD pipelines (GitHub Actions).\n- Exposure to distributed systems, message queues (Kafka/RabbitMQ), or high-throughput payment architectures.\n- Experience with API design, GraphQL, or OpenAPI specs.",
+      "requiredSkillsSpecified": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "SQL",
+        "Data Structures & Algorithms",
+        "Git",
+        "REST APIs"
+      ],
+      "preferredSkillsSpecified": [
+        "Redis",
+        "Docker",
+        "CI/CD Pipelines (GitHub Actions)",
+        "GraphQL",
+        "Distributed Systems Basics"
+      ],
+      "createdAt": "2026-10-16T14:28:19.855Z",
+      "updatedAt": "2026-10-16T14:28:19.855Z",
+      "overallMatchScore": 78,
+      "scoreBreakdown": {
+        "coreSkillsScore": 92,
+        "experienceAndProjectsScore": 82,
+        "preferredAndEducationScore": 60,
+        "explanation": "Score derived using weighted criteria: Core Required Skills (50% weight -> 46 pts), Demonstrated Projects & Real Experience (30% weight -> 24.6 pts), Preferred Systems/DevOps Skills & Education (20% weight -> 12 pts). Strong foundation in React/TS/Node/SQL, but lacking Redis caching and containerization experience."
+      },
+      "matchingSkills": [
+        {
+          "skill": "TypeScript & JavaScript",
+          "evidenceInResume": "Used in ByteCrafters internship and TaskFlow Kanban board project with high proficiency.",
+          "importance": "high"
+        },
+        {
+          "skill": "React & Modern Frontend",
+          "evidenceInResume": "Primary frontend framework across past internship and 2 major projects; holds Meta Front-End certificate.",
+          "importance": "high"
+        },
+        {
+          "skill": "Node.js & Express REST APIs",
+          "evidenceInResume": "Built RESTful services at ByteCrafters Labs and implemented backend endpoints in TaskFlow.",
+          "importance": "high"
+        },
+        {
+          "skill": "PostgreSQL & SQL Schema Design",
+          "evidenceInResume": "Engineered relational schema with Prisma in TaskFlow; query indexing performance optimization experience.",
+          "importance": "high"
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "evidenceInResume": "Stanford CS coursework completed with 3.82 GPA.",
+          "importance": "high"
+        },
+        {
+          "skill": "Git & Automated Testing (Jest)",
+          "evidenceInResume": "Active GitHub portfolio, 84% Jest test coverage achieved in internship.",
+          "importance": "medium"
+        }
+      ],
+      "partiallyMatchingSkills": [
+        {
+          "skill": "Cloud & Infrastructure (AWS vs Production Systems)",
+          "studentHas": "Basic AWS S3/EC2 setup",
+          "gapDescription": "Role demands understanding of scalable microservices, resilient APIs, and production deployment patterns."
+        },
+        {
+          "skill": "API Architecture (GraphQL vs REST)",
+          "studentHas": "Strong REST API experience",
+          "gapDescription": "Familiarity with GraphQL queries, mutations, or schema stitching is preferred at Stripe."
+        }
+      ],
+      "missingRequiredSkills": [
+        {
+          "skill": "Production System Design Fundamentals",
+          "reasonNeeded": "Stripe interviews heavily evaluate how candidates design fault-tolerant systems and handle concurrency/rate-limiting.",
+          "difficultyToLearn": "Intermediate"
+        }
+      ],
+      "missingPreferredSkills": [
+        {
+          "skill": "Redis & In-Memory Caching",
+          "advantage": "Critical for high-throughput payment processing architectures and session rate-limiting."
+        },
+        {
+          "skill": "Docker & Containerization",
+          "advantage": "Industry-standard local development and cloud container orchestration tooling."
+        },
+        {
+          "skill": "CI/CD Pipelines (GitHub Actions)",
+          "advantage": "Demonstrates end-to-end engineering discipline from pull request to automated test verification."
+        }
+      ],
+      "strengths": [
+        "Exceptional alignment on core web stack (React, TypeScript, Node.js, PostgreSQL).",
+        "Clear evidence of real-world impact (28% engagement increase, 18% query optimization).",
+        "Strong academic computer science background and Meta front-end certification."
+      ],
+      "weaknesses": [
+        "Absence of containerization (Docker) in projects makes onboarding to complex enterprise codebases slower.",
+        "No demonstrated experience with Redis caching or rate-limiting concepts, which Stripe prioritizes.",
+        "Resume lacks exposure to CI/CD pipeline automation."
+      ],
+      "resumeImprovements": [
+        "Add a bullet in the TaskFlow project demonstrating Docker containerization or CI/CD workflow.",
+        "Quantify concurrency or data scale in the CampusEats project (e.g., number of concurrent queries or API latency SLA).",
+        "Highlight distributed systems or concurrency concepts learned in Stanford coursework."
+      ],
+      "actionableSteps": [
+        "Complete a 1-week Redis module: implement an in-memory cache and rate-limiter on top of the TaskFlow Express API.",
+        "Containerize the full-stack TaskFlow app using Docker and docker-compose.",
+        "Add a GitHub Actions workflow that automatically runs ESLint, TypeScript compilation, and Jest tests on each push.",
+        "Review system design patterns: idempotency keys, payment webhooks, and asynchronous message queues."
+      ]
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "roadmap-1792505664403-r20t",
+      "userId": "demo-student-alex",
+      "internshipTitle": "Full-Stack Software Engineer Intern",
+      "companyName": "",
+      "title": "Full-Stack Software Engineer Intern Career Acceleration Roadmap",
+      "createdAt": "2026-10-20T14:14:24.403Z",
+      "updatedAt": "2026-10-26T16:47:08.900Z",
+      "targetCompletionWeeks": 4,
+      "summary": "This roadmap builds directly upon Alex's strong foundations in TypeScript, React, Node.js, and PostgreSQL to transition from junior builder to high-impact production engineer. It emphasizes enterprise-grade system patterns including Redis caching, Docker containerization, robust CI/CD pipelines, and advanced relational database modeling to secure top-tier full-stack internships.",
+      "currentStrengths": [
+        "Strong core TypeScript, React, and Node.js proficiency demonstrated across multiple full-stack projects",
+        "Hands-on experience with real-time web technologies (WebSockets) and relational ORMs (Prisma, PostgreSQL)",
+        "Rigorous academic CS foundation (Stanford University CS, 3.82 GPA) with exposure to C++ and systems programming",
+        "Prior professional software engineering internship experience at ByteCrafters Labs"
+      ],
+      "prioritizedSkills": [
+        {
+          "skill": "Containerization & Local Dev Environments (Docker, Docker Compose)",
+          "priority": "High",
+          "reason": "Top-tier intern candidates must be able to spin up reproducible multi-service environments locally and understand production packaging.",
+          "category": "Cloud"
+        },
+        {
+          "skill": "Distributed Caching & In-Memory Stores (Redis)",
+          "priority": "High",
+          "reason": "Crucial for scaling backend APIs, handling session stores, and implementing rate-limiting in high-throughput full-stack architectures.",
+          "category": "Databases"
+        },
+        {
+          "skill": "CI/CD & Automated Testing Pipelines (GitHub Actions, Jest, Supertest)",
+          "priority": "High",
+          "reason": "Engineering teams expect interns to contribute reliably without breaking production; automated integration tests and deployment pipelines prove production readiness.",
+          "category": "System Design"
+        },
+        {
+          "skill": "Advanced Relational Modeling, Indexing, and Query Optimization (PostgreSQL)",
+          "priority": "Medium",
+          "reason": "Moving beyond basic Prisma queries to understanding indexing strategies, connection pooling, and complex SQL transactions is vital for mid-to-large scale backends.",
+          "category": "Databases"
+        },
+        {
+          "skill": "API Security & State Resiliency (OAuth2, JWT Refresh Patterns, Rate Limiting)",
+          "priority": "Medium",
+          "reason": "Enterprise full-stack applications require robust authentication architectures beyond basic mock credentials.",
+          "category": "Frameworks"
+        },
+        {
+          "skill": "Cloud Deployment & Infrastructure Basics (AWS ECS/App Runner, RDS)",
+          "priority": "Medium",
+          "reason": "Expands on baseline S3/EC2 knowledge toward production deployment topologies used by modern tech firms.",
+          "category": "Cloud"
+        }
+      ],
+      "phases": [
+        {
+          "phaseNumber": 1,
+          "title": "Containerization, Infrastructure & Advanced Backend Modeling",
+          "description": "Establish professional local development workflows with Docker Compose, deep dive into PostgreSQL optimization, and implement Redis for caching and session state.",
+          "durationWeeks": 1,
+          "prerequisites": [
+            "TypeScript",
+            "Node.js/Express",
+            "PostgreSQL Basics"
+          ]
+        },
+        {
+          "phaseNumber": 2,
+          "title": "Resilient API Architectures, Security & Automated Testing",
+          "description": "Build production-ready authentication lifecycles with JWT/refresh tokens, implement Redis-backed rate limiting, and establish integration testing with Jest and Supertest.",
+          "durationWeeks": 1,
+          "prerequisites": [
+            "Phase 1: Containerization, Infrastructure & Advanced Backend Modeling"
+          ]
+        },
+        {
+          "phaseNumber": 3,
+          "title": "Full-Stack System Integration, CI/CD & Capstone Execution",
+          "description": "Architect and deploy an enterprise-grade collaborative application featuring real-time state sync, message queuing, automated CI/CD, and live cloud deployment.",
+          "durationWeeks": 2,
+          "prerequisites": [
+            "Phase 2: Resilient API Architectures, Security & Automated Testing"
+          ]
+        }
+      ],
+      "finalPortfolioProject": {
+        "title": "PulseOps - Real-Time Incident Management & Observability Platform",
+        "description": "An enterprise-grade, real-time incident tracking platform designed for engineering teams. Features include live alert triage with WebSockets, audit logging, role-based access control (RBAC), Redis-backed rate-limited webhook ingestion endpoints, and automated Slack/email simulated dispatch queues using BullMQ and Redis. The entire system is containerized with Docker Compose, thoroughly tested via automated GitHub Actions CI/CD, and deployed to cloud infrastructure with live metrics visualization.",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "Redis",
+          "BullMQ",
+          "Docker",
+          "GitHub Actions",
+          "Tailwind CSS"
+        ],
+        "deliverables": [
+          "Public GitHub repository with 80%+ test coverage and passing CI/CD workflows",
+          "Live interactive web application deployed on AWS or Render with custom domain",
+          "Production-ready architecture document detailing schema designs, caching strategies, and ER diagrams in repository README"
+        ],
+        "completionCriteria": "The system successfully processes mock incident webhooks at 100+ requests/sec, queues notifications via BullMQ, synchronizes dashboard updates via WebSockets, and enforces strict RBAC authentication with refresh token rotation."
+      },
+      "tasks": [
+        {
+          "id": "task-1",
+          "weekNumber": 1,
+          "phaseTitle": "Phase 1: Containerization, Infrastructure & Advanced Backend Modeling",
+          "skill": "Containerization & Local Dev Environments (Docker, Docker Compose)",
+          "title": "Multi-Container Orchestration for Full-Stack Applications",
+          "importanceReason": "Standardizes dev environments and matches how industry engineering teams package and run multi-service architectures.",
+          "learningObjective": "Construct a multi-stage Dockerfile for a Node.js/TypeScript API and orchestrate it alongside PostgreSQL and Redis via Docker Compose.",
+          "completionCriteria": "A single 'docker compose up' command successfully provisions the Express backend, a PostgreSQL database with health checks, and a Redis instance, with persistent volumes mounted.",
+          "recommendedResource": {
+            "name": "Docker Documentation - Compose Multi-Container Guide",
+            "url": "https://docs.docker.com/compose/gettingstarted/",
+            "type": "Documentation",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Dockerized Development Sandbox",
+            "description": "Containerize an Express + TypeScript server connected to PostgreSQL and Redis with hot-reloading enabled inside containers.",
+            "deliverable": "A GitHub repository containing the Dockerfile, docker-compose.yml, and environment configuration files."
+          },
+          "prerequisites": [
+            "Node.js",
+            "TypeScript",
+            "Basic Linux / Bash"
+          ],
+          "status": "completed",
+          "completedAt": "2026-10-26T16:38:12.126Z"
+        },
+        {
+          "id": "task-2",
+          "weekNumber": 1,
+          "phaseTitle": "Phase 1: Containerization, Infrastructure & Advanced Backend Modeling",
+          "skill": "Advanced Relational Modeling, Indexing, and Query Optimization (PostgreSQL)",
+          "title": "PostgreSQL Query Optimization & Database Indexing Strategies",
+          "importanceReason": "Full-stack interns are frequently tasked with identifying bottlenecks and writing performant database queries in production codebases.",
+          "learningObjective": "Analyze raw query execution plans using EXPLAIN ANALYZE, implement composite and B-tree indexes, and handle ACID transactions safely in Prisma/raw SQL.",
+          "priority": "High",
+          "estimatedDuration": "5 hours",
+          "completionCriteria": "Demonstrate a 10x query latency improvement on a 500,000-row table by applying appropriate indexes and structuring an ACID-compliant multi-table transaction.",
+          "recommendedResource": {
+            "name": "Use The Index, Luke! - Guide to Database Performance",
+            "url": "https://use-the-index-luke.com/",
+            "type": "Tutorial",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "High-Volume Query Benchmarker",
+            "description": "Seed a PostgreSQL database with 500k dummy records and benchmark complex JOIN and filter queries before and after indexing.",
+            "deliverable": "A markdown benchmark report with EXPLAIN ANALYZE execution trees and migration scripts."
+          },
+          "prerequisites": [
+            "PostgreSQL",
+            "SQL basics"
+          ],
+          "status": "not_started",
+          "studentNotes": ""
+        },
+        {
+          "id": "task-3",
+          "weekNumber": 2,
+          "phaseTitle": "Phase 2: Resilient API Architectures, Security & Automated Testing",
+          "skill": "Distributed Caching & In-Memory Stores (Redis)",
+          "title": "Implement Redis Cache-Aside Pattern and In-Memory Rate Limiting",
+          "importanceReason": "Caching and rate limiting are foundational patterns required for building resilient, enterprise-grade public endpoints.",
+          "learningObjective": "Implement the Cache-Aside pattern for hot GET endpoints and configure sliding-window rate limiting using Redis and Express middleware.",
+          "priority": "High",
+          "estimatedDuration": "6 hours",
+          "completionCriteria": "Cache-hit response times drop below 10ms for repeated requests, and exceeding 60 requests/minute triggers a standardized 429 Too Many Requests response with retry headers.",
+          "recommendedResource": {
+            "name": "Redis University - RU101: Introduction to Redis Data Structures",
+            "url": "https://university.redis.com/courses/ru101/",
+            "type": "Course",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Express Redis Rate Limiter & Cached Gateway",
+            "description": "Create a reusable middleware library that performs sliding-window rate limiting and caches API responses with customizable TTLs.",
+            "deliverable": "An Express middleware module with automated test coverage for rate-limit boundaries."
+          },
+          "prerequisites": [
+            "Task 1: Multi-Container Orchestration for Full-Stack Applications"
+          ],
+          "status": "not_started",
+          "studentNotes": ""
+        },
+        {
+          "id": "task-4",
+          "weekNumber": 2,
+          "phaseTitle": "Phase 2: Resilient API Architectures, Security & Automated Testing",
+          "skill": "API Security & State Resiliency (OAuth2, JWT Refresh Patterns, Rate Limiting)",
+          "title": "Production-Grade Authentication with JWT Refresh Token Rotation",
+          "importanceReason": "Security vulnerabilities often stem from naive auth tokens; interns who demonstrate best practices with short-lived access tokens stand out significantly.",
+          "learningObjective": "Implement secure authentication featuring short-lived access JWTs stored in memory and HTTP-only, secure, same-site refresh tokens with automatic token rotation and revocation.",
+          "priority": "High",
+          "estimatedDuration": "7 hours",
+          "completionCriteria": "Complete end-to-end authentication flow verifying automatic token refresh on expiry, logout revocation in Redis, and reuse detection that revokes all child tokens.",
+          "recommendedResource": {
+            "name": "OWASP - JSON Web Token Cheat Sheet for Developers",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html",
+            "type": "Documentation",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Secure Auth Microservice",
+            "description": "Build an authentication service exposing /signup, /login, /refresh, and /logout endpoints conforming to OWASP secure session standards.",
+            "deliverable": "A tested authentication module including automated tests simulating token theft and replay scenarios."
+          },
+          "prerequisites": [
+            "TypeScript",
+            "Express",
+            "Task 3: Implement Redis Cache-Aside Pattern and In-Memory Rate Limiting"
+          ],
+          "status": "not_started",
+          "studentNotes": ""
+        },
+        {
+          "id": "task-5",
+          "weekNumber": 3,
+          "phaseTitle": "Phase 3: Full-Stack System Integration, CI/CD & Capstone Execution",
+          "skill": "CI/CD & Automated Testing Pipelines (GitHub Actions, Jest, Supertest)",
+          "title": "Automated End-to-End & Integration Testing with GitHub Actions",
+          "importanceReason": "Proves the candidate understands engineering reliability and how enterprise teams deploy software safely without manual QA.",
+          "learningObjective": "Configure GitHub Actions workflows that run linting, Jest unit tests, Supertest integration tests against ephemeral Dockerized services, and build verification on every pull request.",
+          "priority": "High",
+          "estimatedDuration": "6 hours",
+          "completionCriteria": "Pull requests automatically trigger a GitHub Actions workflow that executes all unit and API tests against an active containerized Postgres service, blocking merge on failure.",
+          "recommendedResource": {
+            "name": "GitHub Actions Documentation - Building and Testing Node.js",
+            "url": "https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs",
+            "type": "Documentation",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Automated Test Harness for TaskFlow",
+            "description": "Add comprehensive integration test suites using Supertest and Jest to Alex's existing TaskFlow backend, automated via GitHub Actions.",
+            "deliverable": "A passing CI workflow badge in the repository README with green test checks."
+          },
+          "prerequisites": [
+            "Jest",
+            "Git",
+            "GitHub"
+          ],
+          "status": "not_started",
+          "studentNotes": ""
+        },
+        {
+          "id": "task-6",
+          "weekNumber": 4,
+          "phaseTitle": "Phase 3: Full-Stack System Integration, CI/CD & Capstone Execution",
+          "skill": "Cloud Deployment & Infrastructure Basics (AWS ECS/App Runner, RDS)",
+          "title": "Deploying Full-Stack Capstone (PulseOps) with Observability",
+          "importanceReason": "Having a live, highly polished capstone deployed on cloud infrastructure provides concrete proof of full-stack delivery skills during interviews.",
+          "learningObjective": "Deploy the complete containerized PulseOps application to cloud infrastructure (AWS ECS/App Runner or Render/Fly.io) connected to managed PostgreSQL and Redis instances.",
+          "priority": "High",
+          "estimatedDuration": "10 hours",
+          "completionCriteria": "The PulseOps capstone is live, responsive on desktop and mobile, with automated healthcheck endpoints returning 200 OK and zero console errors.",
+          "recommendedResource": {
+            "name": "AWS Getting Started - Deploy a Web App with AWS App Runner",
+            "url": "https://aws.amazon.com/getting-started/hands-on/deploy-app-runner/",
+            "type": "Project Guide",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "PulseOps Capstone Deployment",
+            "description": "Integrate the frontend Next.js interface with the containerized Node/Express backend, automated queue workers, and live Redis/Postgres instances in production.",
+            "deliverable": "A live production URL with full architectural documentation and automated smoke tests."
+          },
+          "prerequisites": [
+            "Task 1",
+            "Task 3",
+            "Task 4",
+            "Task 5"
+          ],
+          "status": "not_started",
+          "studentNotes": ""
+        }
+      ]
+    },
+    {
+      "id": "demo-roadmap-1",
+      "userId": "demo-student-alex",
+      "analysisId": "demo-analysis-1",
+      "internshipTitle": "Full-Stack Software Engineering Intern (Summer 2026)",
+      "companyName": "Stripe",
+      "title": "Stripe SWE Intern Readiness Roadmap (4 Weeks)",
+      "targetCompletionWeeks": 4,
+      "createdAt": "2026-10-17T14:28:19.855Z",
+      "updatedAt": "2026-10-18T14:28:19.855Z",
+      "summary": "Bridge the gap from standard full-stack web developer to distributed systems & fintech intern by mastering Redis caching, Docker containerization, CI/CD with GitHub Actions, and Stripe-style API idempotency.",
+      "tasks": [
+        {
+          "id": "task-1",
+          "weekNumber": 1,
+          "skill": "Redis & API Caching",
+          "title": "Implement Redis Caching & Rate Limiting in Express",
+          "importanceReason": "Stripe processes millions of API calls per second and relies heavily on Redis for distributed locks, caching, and token bucket rate limiters.",
+          "learningObjective": "Understand Redis data structures (Strings, Hashes, Sorted Sets) and wire a cache-aside pattern into an Express endpoint.",
+          "priority": "High",
+          "estimatedDuration": "6 hours",
+          "recommendedResource": {
+            "name": "Redis University - RU101: Introduction to Redis Data Structures",
+            "url": "https://university.redis.com/courses/ru101/",
+            "type": "Course",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Express Redis Rate-Limiter Middleware",
+            "description": "Build an IP-based sliding-window rate limiter middleware using Redis in Node.js.",
+            "deliverable": "A working middleware function with unit tests validating max 60 req/min."
+          },
+          "prerequisites": [
+            "Node.js",
+            "Express",
+            "Asynchronous JS"
+          ],
+          "status": "completed",
+          "targetDate": "2026-10-18",
+          "completedAt": "2026-10-18T14:28:19.855Z",
+          "studentNotes": "Completed RU101 module. Built the sliding window rate limiter in my test repository and verified with Postman collection!"
+        },
+        {
+          "id": "task-2",
+          "weekNumber": 1,
+          "skill": "Docker Containerization",
+          "title": "Containerize Full-Stack App with Multi-Stage Dockerfile",
+          "importanceReason": "Ensures reproducible development environments and matches Stripe production deployment workflows.",
+          "learningObjective": "Write clean Dockerfiles for React (Vite) and Node.js backend, and orchestrate with docker-compose.",
+          "priority": "High",
+          "estimatedDuration": "5 hours",
+          "recommendedResource": {
+            "name": "Docker Official Getting Started Guide & Node.js Best Practices",
+            "url": "https://docs.docker.com/get-started/",
+            "type": "Documentation",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Docker Compose for TaskFlow",
+            "description": "Containerize frontend, backend, PostgreSQL, and Redis in a single docker-compose.yml file.",
+            "deliverable": "Running single command `docker compose up` that spins up the full working application."
+          },
+          "prerequisites": [
+            "Linux basics",
+            "Environment variables"
+          ],
+          "status": "in_progress",
+          "targetDate": "2026-10-21",
+          "studentNotes": "Wrote the Node backend Dockerfile using Alpine image. Next: configure docker-compose network for Postgres and Redis."
+        },
+        {
+          "id": "task-3",
+          "weekNumber": 2,
+          "skill": "CI/CD Automation",
+          "title": "Automate Testing & Linting with GitHub Actions",
+          "importanceReason": "Top tier engineering teams never merge unverified code. Demonstrating GitHub Actions shows professional maturity.",
+          "learningObjective": "Create a workflow file in .github/workflows that runs on pull requests, executing linting, TypeScript compile, and Jest tests.",
+          "priority": "Medium",
+          "estimatedDuration": "4 hours",
+          "recommendedResource": {
+            "name": "GitHub Skills: Automate DevOps with GitHub Actions",
+            "url": "https://skills.github.com/",
+            "type": "Interactive",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Automated PR Quality Gate",
+            "description": "Set up branch protection and automated verification for your TaskFlow repository.",
+            "deliverable": "A green check badge on your public GitHub repository demonstrating passing CI."
+          },
+          "prerequisites": [
+            "Git",
+            "Jest",
+            "npm scripts"
+          ],
+          "status": "not_started",
+          "targetDate": "2026-10-26"
+        },
+        {
+          "id": "task-4",
+          "weekNumber": 3,
+          "skill": "Financial API Design & Idempotency",
+          "title": "Master API Idempotency & Webhook Resilience",
+          "importanceReason": "Stripe is famous for its Idempotency-Key header standard. Knowing how to prevent duplicate payment charges is an instant interview winner.",
+          "learningObjective": "Learn how idempotency keys work with database transactions to prevent double charges during network retries.",
+          "priority": "High",
+          "estimatedDuration": "8 hours",
+          "recommendedResource": {
+            "name": "Stripe Engineering Blog: Designing Robust and Idempotent APIs",
+            "url": "https://stripe.com/blog/idempotency",
+            "type": "Documentation",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Idempotent Payment Simulation Endpoint",
+            "description": "Create a `/api/charges` endpoint that accepts an `Idempotency-Key` header, caching request IDs in Redis with Postgres rollback.",
+            "deliverable": "Demonstrated curl test showing duplicate requests return the same response without duplicate DB records."
+          },
+          "prerequisites": [
+            "PostgreSQL transactions",
+            "Redis",
+            "Express"
+          ],
+          "status": "not_started",
+          "targetDate": "2026-11-02"
+        },
+        {
+          "id": "task-5",
+          "weekNumber": 4,
+          "skill": "System Design for Interns",
+          "title": "Core System Design & Scale Fundamentals",
+          "importanceReason": "Prepares for technical round discussions on database sharding, connection pooling, and message queuing.",
+          "learningObjective": "Understand vertical vs horizontal scaling, CDN caching, database read replicas, and asynchronous workers.",
+          "priority": "Medium",
+          "estimatedDuration": "6 hours",
+          "recommendedResource": {
+            "name": "System Design Primer by Donne Martin",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "type": "Project Guide",
+            "isFree": true
+          },
+          "practiceProject": {
+            "title": "Architecture Diagram for Scaled TaskFlow",
+            "description": "Diagram the scaled architecture of TaskFlow handling 50k active users with load balancers, read replicas, and Redis.",
+            "deliverable": "Visual architecture spec sheet to include in GitHub portfolio."
+          },
+          "prerequisites": [
+            "Database Systems",
+            "HTTP protocols"
+          ],
+          "status": "not_started",
+          "targetDate": "2026-11-09"
+        }
+      ]
+    }
+  ]
+}

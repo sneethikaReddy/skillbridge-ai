@@ -1,0 +1,6 @@
+{
+  "name": "SkillBridge AI - Smart Internship & Skill Gap Planner",
+  "description": "Analyze resumes, evaluate internship job matches, identify skill gaps, and generate actionable personalized AI learning roadmaps for college students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
