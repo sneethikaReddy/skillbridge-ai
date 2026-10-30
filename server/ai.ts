@@ -44,7 +44,7 @@ async function callGeminiWithRetry<T>(
   fn: () => Promise<T>,
   retries = 2,
   baseDelayMs = 1500,
-  timeoutMs = 35000
+  timeoutMs = 60000
 ): Promise<T> {
   let lastError: any;
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -95,14 +95,15 @@ async function callGeminiWithRetry<T>(
         errMsg.includes('UNAVAILABLE') ||
         errMsg.includes('overloaded') ||
         errMsg.includes('fetch failed') ||
-        errMsg.includes('Timeout') ||
         errMsg.includes('ECONNRESET') ||
         (errMsg.includes('429') && !isDailyQuota);
 
       if (isTemporary && attempt < retries) {
         const delay = baseDelayMs * Math.pow(2, attempt) + Math.floor(Math.random() * 400);
         console.warn(
-          `[Gemini AI] ${operationName}: Temporary service issue (${errMsg}). Retrying attempt ${
+          `[Gemini AI] ${operationName}: Temporary service issue (
+          
+        ${errMsg}). Retrying attempt ${
             attempt + 1
           }/${retries} in ${delay}ms...`
         );
