@@ -136,7 +136,7 @@ async function callGeminiWithRetry<T>(
   throw lastError;
 }
 
-export async function parseResumeWithAI(resumeText: string): Promise<ExtractedResumeData> {
+(resumeText: string): Promise<ExtractedResumeData> {
   const ai = getAiClient();
 
   const prompt = `You are an expert technical resume parser for university students and internship candidates.
@@ -205,7 +205,7 @@ Return ONLY a valid JSON object with this exact structure:
   "extractionNotes": ["Any observations about missing sections, e.g. 'No GPA listed' or 'No prior work experience listed'"]
 }`;
 
-  return callGeminiWithRetry('Resume Parser', async () => {
+  
     const response = await ai.models.generateContent({
       model: 'gemini-3.8-flash',
       contents: prompt,
@@ -235,8 +235,9 @@ Return ONLY a valid JSON object with this exact structure:
     return parsed;
   });
 }
+export async function parseResumePdfWithAI
 
-export async function parseResumePdfWithAI(pdfBuffer: Buffer): Promise<ExtractedResumeData> {
+(pdfBuffer: Buffer): Promise<ExtractedResumeData> {
   const ai = getAiClient();
 
   const prompt = `You are an expert technical resume parser for university students and internship candidates.
@@ -250,7 +251,7 @@ STRICT RULES:
 
 Return ONLY a valid JSON object with this exact structure:
 {
-  "fullName": "Student Name or string",
+  "return callGeminiWithRetry('Resume Parser', async () => {fullName": "Student Name or string",
   "email": "Email address or string",
   "phone": "Phone or string",
   "location": "City, State or string",
