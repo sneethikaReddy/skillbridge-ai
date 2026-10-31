@@ -136,7 +136,7 @@ async function callGeminiWithRetry<T>(
   throw lastError;
 }
 
-(resumeText: string): Promise<ExtractedResumeData> {
+export async function parseResumeWithAI(resumeText: string): Promise<ExtractedResumeData> {
   const ai = getAiClient();
 
   const prompt = `You are an expert technical resume parser for university students and internship candidates.
