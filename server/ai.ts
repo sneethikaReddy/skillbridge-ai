@@ -235,9 +235,7 @@ Return ONLY a valid JSON object with this exact structure:
     return parsed;
   });
 }
-export async function parseResumePdfWithAI
-
-(pdfBuffer: Buffer): Promise<ExtractedResumeData> {
+export async function parseResumePdfWithAI(pdfBuffer: Buffer): Promise<ExtractedResumeData> {
   const ai = getAiClient();
 
   const prompt = `You are an expert technical resume parser for university students and internship candidates.
